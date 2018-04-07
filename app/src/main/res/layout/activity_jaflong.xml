@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e392e"
+    tools:context="com.mirmahfuz.travelguide.Jaflong">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/jaflong_main"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="প্রকৃতি কন্যা জাফলং "
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jaflong_des"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/jaflong_one"
+                android:scaleType="fitXY"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="কিভাবে যাবেন"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="বাসে সিলেটঃ"
+                android:textColor="#fff"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jaflong_go_bus"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="ঢাকা থেকে ট্রেনে সিলেটঃ"
+                android:textColor="#fff"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jaflong_two_go"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/jaflong_supreme"
+                android:scaleType="fitXY"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="কোথায় থাকবেনঃ"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jaflong_home"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coxs_home2"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/dinner"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="কোথায় খাবেনঃ"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jaflong_food"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

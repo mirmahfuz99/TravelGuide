@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1E392E"
+    tools:context="com.mirmahfuz.travelguide.Lalbag_kella">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/lalbag_kella"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="লালবাগ কেল্লা"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lalbag_des"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/lalbag_one"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="সুরঙ্গ রহস্য"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lalbag_sorungo"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="কীভাবে যাবেন"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lalbag_go"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="টিকেট প্রাপ্তিস্থান"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lalbag_ticket"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="পরিদর্শন সময়সূচী"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lalbag_time"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF1E392E"
+        tools:context="com.mirmahfuz.travelguide.Cox_bazar">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="7dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/coxsbazar"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="কক্সবাজার"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxsbazar_one"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="কিভাবে যাবেন"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howcan_go"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="কোথায় থাকবেনঃ"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxs_home"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/hotel"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxs_home2"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/dinner"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="কোথায় খাবেনঃ"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxsbazar_eat"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="কক্সবাজারের দর্শনীয় স্থানঃ"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxsbazar_two"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="লাবনী পয়েন্ট ও কলাতলী বিচঃ"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/labonipoint"
+                    android:scaleType="fitXY"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxsbazar_three"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="ইনানী বিচঃ"
+                    android:textColor="@color/text_color_2"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/inanibetch"
+                    android:scaleType="fitXY"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coxsbazar_four"
+                    android:textColor="@color/text_color_1"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>

@@ -1,0 +1,69 @@
+<android.support.v7.widget.CardView
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/card_view"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+card_view:cardUseCompatPadding="true"
+card_view:cardCornerRadius="8dp"
+android:layout_marginBottom="16dp"
+android:background="#112b20">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e392e">
+
+    <ImageView
+        android:id="@+id/country_photo"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/coxsbazar"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_photo"
+        android:paddingLeft="5dp"
+        android:paddingTop="4dp"
+        android:textSize="18dp"
+        android:text="Country_Name"
+        android:textColor="#ced79f"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/spot_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_name"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingRight="5dp"
+        android:text="Spot_des"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/learn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spot_des"
+        android:layout_centerInParent="true"
+        android:padding="6dp"
+        android:textSize="18dp"
+        android:text=" আরো জানুন "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        />
+
+
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>

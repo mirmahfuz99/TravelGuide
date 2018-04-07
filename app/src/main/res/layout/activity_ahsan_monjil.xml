@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1E392E"
+    tools:context="com.mirmahfuz.travelguide.Ahsan_monjil">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/ahsan_monjil"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আহসান মঞ্জিল"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ahsan_des"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/ahsan_one"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="পরিদর্শনের সময়সূচী"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ahsan_time"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/ahsan_three"
+                android:scaleType="fitXY"/>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="টিকেট কাউন্টার"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ahsan_ticket"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="দর্শনীয় জিনিস"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ahsan_see"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

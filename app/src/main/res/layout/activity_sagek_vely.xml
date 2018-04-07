@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1E392E"
+    tools:context="com.mirmahfuz.travelguide.Sagek_vely">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/sagek_two"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মেঘের রাজ্য সাজেক ভ্যালি "
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_one"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/sagek_main"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="যেভাবে যাবেন খাগড়াছড়ি"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_how"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="খাগড়াছড়ি থেকে সাজেক"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_how_two"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/sagek_hotel"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="সাজেকে থাকা খাওয়া"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_home"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="সাজেক বিলাস করবেন যেভাবে"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_bilas"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/sagek_bilas"
+                android:scaleType="fitXY"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_bilas_two"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="আলুটিলা রহস্যগুহা"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alutila"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/aulitila"
+                android:scaleType="fitXY"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alutila_two"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="প্রয়োজনীয় তথ্য"
+                android:textColor="@color/text_color_2"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagek_info"
+                android:textColor="@color/text_color_1"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

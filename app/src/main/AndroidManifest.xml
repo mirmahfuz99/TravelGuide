@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mirmahfuz.travelguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconm"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Introscreengird">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cox_bazar" />
+        <activity android:name=".Kutubdia" />
+        <activity android:name=".Saint_martin" />
+        <activity android:name=".Nijum_dip" />
+        <activity android:name=".Sonadia" />
+        <activity android:name=".Kuakata" />
+        <activity android:name=".Moynamoti" />
+        <activity android:name=".Sagek_vely" />
+        <activity android:name=".Ahsan_monjil" />
+        <activity
+            android:name=".Lalbag_kella"
+            android:label="@string/title_activity_lalbag_kella"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".Jaflong" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Lalkhal" />
+        <activity android:name=".Simulful" />
+        <activity android:name=".Baga_mosque" />
+        <activity android:name=".Satgombuj_mosque" />
+        <activity android:name=".Golapgram" />
+        <activity android:name=".Malinichora" />
+        <activity android:name=".Nuhas_polli" />
+        <activity android:name=".Safaripark" />
+        <activity android:name=".Chimbuk"></activity>
+    </application>
+
+</manifest>
